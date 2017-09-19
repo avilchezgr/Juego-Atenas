@@ -1,0 +1,56 @@
+[
+{
+entityID : TOWN_FOLK1
+state : IDLE
+direction : IMMOBILE
+
+
+animationConfig: [
+	{
+	    frameDuration: 1.0
+		animationType: IDLE
+		texturePaths: [
+				sprites/characters/npc_folk_1.png
+				
+		]
+		gridPoints: [
+			{
+				x: 0
+				y: 2
+			}
+			{
+				x: 1
+				y: 2
+			}
+			{
+				x: 6
+				y: 2
+			}
+		]
+	}
+	{
+	    frameDuration: 1.0
+		animationType: IMMOBILE
+		texturePaths: [
+				sprites/characters/npc_folk_1.png
+		]
+		gridPoints: [
+{
+				x: 0
+				y: 2
+			}
+			{
+				x: 1
+				y: 2
+			}
+			{
+				x: 6
+				y: 2
+			}
+			
+		]
+	}
+]
+}
+
+]
